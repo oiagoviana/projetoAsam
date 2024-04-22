@@ -2,6 +2,7 @@
 import './index.scss';
 import '../../common/common.scss'
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   const [botoesCliques, setBotoesCliques] = useState('card1');
@@ -127,7 +128,8 @@ export default function Home() {
 
               <div className='div-texto'>
                 <p className='texto-botao'>Se quiser também ver alguns pontos importantes e resumidos que o entrevistado citou, clique no botão abaixo. </p>
-                <a href='/entrevista' className='botao-entrevista'>CLIQUE AQUI!</a>
+                <Link to='/entrevista' className='botao-entrevista'>CLIQUE AQUI!</Link>
+
               </div>
             </div>
           
