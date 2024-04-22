@@ -1,0 +1,190 @@
+.home{
+    
+    .cabecalhoP{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        color: #0D03D6;  
+    }
+
+    .texto-cabecalho{
+        font-family: 'PoppinsRegular';
+    }
+
+    .linha{
+        border: 1px solid #FBBD48;
+        width: 100%;
+    }
+
+    .icone-asam{
+        margin-top: 4px;
+    }
+
+    .div-opcoes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #1F6CBB;
+        border-top: 3px solid #FBBD48;
+        height: 10vh;
+    }
+
+    .h-opcoes{
+        color: #DDDDDD;
+        text-decoration: none;
+        font-family: 'PoppinsRegular';
+    }
+
+    .div-sobre{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 74vh;
+    }
+
+    .sobre{
+        width: 40vw;
+    }
+
+    .titulo-sobre{
+        color: #F5A219;
+        font-family: "OpenBold";
+    }
+
+    .texto-sobre{
+        text-align: justify;
+        font-family: 'PoppinsRegular';
+        font-size: 0.9em;
+    }
+
+    .div2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #F2F2F2;
+        height: 105vh;
+    }
+
+    .div-semestre{
+        display: flex;
+        flex-direction: column;
+        width: 75vw; 
+        height: 95vh;
+    }
+
+    .div-cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cards, .cards2{
+        font-family: 'PoppinsRegular';
+    }
+
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #1F6CBB;
+        height: 7vh;
+        border-radius: 6px;
+        width: 12vw;
+        color: #ffffff;
+        cursor: pointer; 
+    }
+
+    .cards2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        height: 7vh;
+        border-radius: 6px;
+        width: 12vw;
+        border: 1px solid #1F6CBB;
+        cursor: pointer;
+    }
+
+    .semestre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .semestre p {
+        color: black;
+        border: 2px solid #1F6CBB;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: 'PoppinsRegular';
+    }
+
+    .div3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+    }
+
+    .div3-direita{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 45vw;
+        height: 75vh;
+    }
+
+    .div-qrcode{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;  
+    }
+
+    .texto-direita, .texto-botao{
+        text-align: justify;
+        font-size: 1.12em;
+        font-family: 'PoppinsRegular';
+    }
+
+    .div-texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 25vw;
+        height: 31vh;
+        margin-top: 10px;  
+    }
+
+    .botao-entrevista{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F5A219;
+        color: #ffffff;
+        border: 0px;
+        width: 17vw;
+        height: 8vh;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+
+    span{
+        color: #F5A219;
+        font-family: 'OpenSemi';
+    }
+}
